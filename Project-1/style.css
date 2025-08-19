@@ -1,0 +1,80 @@
+body{
+    padding-left: 100px;
+}
+h1{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bolder;
+    margin-left: 150px;
+}
+h1 span{
+    color: #00BFFF;
+}
+.main{
+    display: flex;
+    margin: 35px;
+    margin-right: 100px;
+    margin-left: 120px;
+}
+#plus{
+    width: 36px;
+    height: 36px;
+}
+.start{
+    margin-top: -25px;
+    width: 62vw;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
+.start span{
+    font-size: 20px;
+    font-weight: bold;
+    padding-left: 10px;
+}
+.background{
+    background-color: rgb(248, 246, 246);
+    height: 600px;
+    width: auto;
+    margin-right: 100px;
+    padding-top: 5px;
+}
+.task{
+    margin-top: -20px;
+    margin-right: 100px;
+    margin-left: 150px;
+}
+.grid{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 5px;
+}
+.box{
+    width: 240px;
+    height: 250px;
+    background-color: white;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    border: 1px solid lightgray;
+    background-color: white;
+}
+.box:hover{
+    box-shadow: 1px 1px 20px lightgray;
+}
+.box h3{
+    color: #00BFFF;
+    font-weight: bold;
+    padding-left: 10px;
+}
+input{
+    width: 20px;
+    height: 20px;
+    margin-left: 20px;
+}
+.input{
+    display: flex;
+    align-items: center;
+}
+strike{
+    color: grey;
+    
+}
